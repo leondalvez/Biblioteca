@@ -9,7 +9,7 @@ package Entidad;
 
 /**
  *
- * @author usuario
+ * @author Leonardo Alvez
  */
 public class Libro {
     

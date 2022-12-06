@@ -16,9 +16,7 @@ import Servicio.LibroServicio;
  */
 public class Biblioteca {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
         //Instanciamos un objeto del tipo servicio así podemos acceder a sus metodos.
         LibroServicio ls = new LibroServicio();

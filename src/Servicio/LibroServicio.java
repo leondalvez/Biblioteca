@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Declaramos el servicio
  */
 package Servicio;
 
@@ -10,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author usuario
+ * @author Leonardo Alvez
  */
 public class LibroServicio {
     
@@ -22,6 +20,7 @@ public class LibroServicio {
         //Instanciamos un objeto del tipo Scanner para solicitar datos.
         Scanner leer;
         leer = new Scanner(System.in);
+        leer.useDelimiter("\n");
         
         System.out.println("Por favor introduzca el nombre de usuario");
         l1.setUsuario(leer.next());
@@ -39,10 +38,10 @@ public class LibroServicio {
     
     public void InformarDatos(Libro l1){
         
-        System.out.println("Número de ISBN:" + l1.getIsbn());
-        System.out.println("Título:" + l1.getTitulo());
-        System.out.println("Autor:" + l1.getAutor());
-        System.out.println("Páginas:" + l1.getPaginas());
+        System.out.println("Número de ISBN: " + l1.getIsbn());
+        System.out.println("Título: " + l1.getTitulo());
+        System.out.println("Autor: " + l1.getAutor());
+        System.out.println("Páginas: " + l1.getPaginas());
     }
     
 }
